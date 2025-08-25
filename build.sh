@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-xcaddy build --with github.com/caeret/caddy-ip-filter --with github.com/caddy-dns/cloudflare --with github.com/caddyserver/replace-response
+xcaddy build --with github.com/caeret/caddy-ip-filter@v0.0.2 --with github.com/caddy-dns/cloudflare --with github.com/caddyserver/replace-response
