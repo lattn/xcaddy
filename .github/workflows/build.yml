@@ -83,6 +83,7 @@ jobs:
           name: "caddy_linux_${{ matrix.go }}"
           path: |
             caddy
+            caddyl4
 
   Upload-Release:
     permissions: write-all
